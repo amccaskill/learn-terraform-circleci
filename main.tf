@@ -10,7 +10,7 @@ terraform {
     key    = "terraform/webapp/terraform.tfstate"
     region = "us-east-1"
  }
-  required_version = "~> 0.14"
+  required_version = "~> 0.1"
 }
 
 provider "aws" {
