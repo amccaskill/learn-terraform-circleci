@@ -71,4 +71,5 @@ resource "aws_s3_bucket_object" "app" {
 }
 
 output "Endpoint" {
-  value = aws_s3_bucket.app.website_endpoint}
+  value = aws_s3_bucket.app.website_endpoint
+  }
